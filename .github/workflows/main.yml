@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-    buildWebGL:
+  buildWebGL:
     needs: testRunner
     name: Build for WebGL 🖥️
     runs-on: ubuntu-latest
