@@ -1,4 +1,4 @@
-name: Build and Deploy for WebGL
+name: Build and Deploy for WebGL ItchIo
 
 on:
   workflow_dispatch: {}
