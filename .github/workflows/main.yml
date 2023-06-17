@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
 jobs:
   buildWebGL:
     name: Build for WebGL 🖥️
